@@ -18,15 +18,15 @@
   <distributionManagement>
     <repository>
       <uniqueVersion>false</uniqueVersion>
-      <id>corp1</id>
-      <name>Corporate Repository</name>
+      <id>LearningGit-app-releases</id>
+      <name>LearningGit-app-releases</name>
       <url>http://ec2-52-15-222-101.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/LearningGit-app-releases/</url>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
       <uniqueVersion>true</uniqueVersion>
-      <id>propSnap</id>
-      <name>Propellors Snapshots</name>
+      <id>LearningGit-app-snapshots</id>
+      <name>LearningGit-app-snapshots</name>
       <url>http://ec2-52-15-222-101.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/LearningGit-app-snapshots/</url>
       <layout>legacy</layout>
     </snapshotRepository>

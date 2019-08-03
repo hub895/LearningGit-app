@@ -20,14 +20,14 @@
       <uniqueVersion>false</uniqueVersion>
       <id>LearningGit-app-releases</id>
       <name>LearningGit-app-releases</name>
-      <url>http://3.15.32.7:8081/nexus/content/repositories/LearningGit-app-releases/</url>
+      <url>http://ip-172-31-39-242.us-east-2.compute.internal:8081/nexus/content/repositories/LearningGit-app-releases/</url>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
       <uniqueVersion>true</uniqueVersion>
       <id>LearningGit-app-snapshots</id>
       <name>LearningGit-app-snapshots</name>
-      <url>http://3.15.32.7:8081/nexus/content/repositories/LearningGit-app-snapshots/</url>
+      <url>http://ip-172-31-39-242.us-east-2.compute.internal:8081/nexus/content/repositories/LearningGit-app-snapshots/</url>
       <layout>legacy</layout>
     </snapshotRepository>
   </distributionManagement>
